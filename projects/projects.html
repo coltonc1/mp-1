@@ -1,0 +1,83 @@
+<!-- mp-1/index.html -->
+<!-- Homepage for mp-1 resume website -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Need to put meta tags like on slide 23 slide 1-->
+        <meta charset="UTF-8">
+        <title>Projects | Resume</title>
+        <link rel="stylesheet" type="text/css" href="./projects.css">
+        <!-- css -->
+    </head>
+
+
+
+    <body>
+        <div id="page-wrapper">
+
+            <header>
+                <h1>Colton Connolly</h1>
+                <p>My Online Resume</p>
+            </header>
+
+            <div id="container">
+                <nav>
+                    <ul>
+                        <li><a href="../home/index.html">Home</a></li>
+                        <li><a href="../education/education.html">Education</a></li>
+                        <li><a href="../experience/experience.html">Experience</a></li>
+                        <li><a href="../certifications/certifications.html">Certifications</a></li>
+                        <li><a href="../achievements/achievements.html">Achievements</a></li>
+                        <li><a href="">Projects</a></li>
+                    </ul>
+                </nav>
+
+                <main>
+                    <h3 id="main-title">Projects</h3>
+
+                    <div id="main">
+
+                        <div id="main-text">
+                            <ul id="projects-list-ul">
+                                <li id="projects-list-li">Collaborated with a team to make a playlist guessing game for the user
+                                    using the Spotify API
+                                </li>
+                                <li id="projects-list-li">Implemented Map-Reduce using Go</li>
+                                <li id="projects-list-li">Implemented a sudoku solver using recursive backtracking in Java</li>
+                                <li id="projects-list-li">Created a resume website, the one you are reading right now</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div id="calc-wrapper">
+                        <h3 id="calc-title">Calculator</h3>
+                        <script src="calc.js"></script>
+                        <div id="calc-input">
+                            <input type="text" id="first-number">
+                            <input type="text" id="second-number">
+                        </div>
+                        <div id="calc-buttons">
+                            <button id="add" onclick="addition()">+</button>
+                            <button id="subtract" onclick="subtract()">-</button>
+                            <button id="multiply" onclick="multiply()">*</button>
+                            <button id="divide" onclick="divide()">/</button>
+                            <button id="power" onclick="power()">**</button>
+                            <button id="clear" onclick="clearInput()">Clear</button>
+                        </div>
+                        <div id="output"></div>
+                    </div>
+
+                </main>
+
+                
+
+            </div>
+
+            <footer>
+                <p>All Rights Reserved by Colton Connolly <a href=""> Credits</a> &copy;</p>
+            </footer>
+
+        </div>
+    </body>
+
+</html>
